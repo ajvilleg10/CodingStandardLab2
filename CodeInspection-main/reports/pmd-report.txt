@@ -1,0 +1,6 @@
+src/main/java/labcodeinspection/Email.java:9:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'password'
+src/main/java/labcodeinspection/Email.java:11:	ImmutableField:	ImmutableField: Field 'defaultpasswordLength' may be declared final
+src/main/java/labcodeinspection/Email.java:21:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/labcodeinspection/Email.java:22:	GuardLogStatement:	GuardLogStatement: Logger calls should be surrounded by log level guards.
+src/main/java/labcodeinspection/Email.java:26:	SwitchStmtsShouldHaveDefault:	SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+src/main/java/labcodeinspection/Email.java:46:	StringInstantiation:	StringInstantiation: Avoid instantiating String objects; this is usually unnecessary.
